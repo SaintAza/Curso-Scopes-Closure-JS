@@ -1,0 +1,19 @@
+{
+  "name": "scope-closure",
+  "version": "1.0.0",
+  "description": "Curso de Scopes and Clousres in JavaScript by Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SaintAza/Curso-Scopes-Closures-JS.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaintAza/Curso-Scopes-Closures-JS/issues"
+  },
+  "homepage": "https://github.com/SaintAza/Curso-Scopes-Closures-JS#readme"
+}
