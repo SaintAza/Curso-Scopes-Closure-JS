@@ -1,27 +1,21 @@
-function hw() {
-    const hello = 'hello'
+const helloWorld = () => {
+    const hello = 'Hello World';
     console.log(hello);
 }
 
-hw();
-console.log(hello); // no la imprimira ya que esta en un closure y esta en un scope local => not defined
+helloWorld();
+console.log(hello);
 
+var scope = 'i am globa';
 
-
-/*********************** */
-
-
-cons functionScope = () => {
-
-    var scope = 'i am local';
-    
+const functionScope = () => {
+    // a esto se le llama el ambito léxico. Esta variable scope es local y es diferente a la variable global scope, asi tengan el mismo nombre
+    var scope = 'i am just a local'; 
     const func = () => {
-
-        return scope 
-        console.log(scope);
-    };
-    console.log(func);
-};
-
-functionScope()
-console.log(scop);
+        return scope
+    }
+    console.log(func());
+}
+    
+functionScope();
+console.log(scope);
